@@ -1,0 +1,4 @@
+HEB 8 3 1,1 
+WholeFoods 4 10 4,2 
+Target 10 4 10,10 
+Costco 9 8 8,1 
