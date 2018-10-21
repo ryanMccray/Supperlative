@@ -1,0 +1,198 @@
+/*
+File : mission.css;
+Date created: October 20 2018;
+Date modified: October 20 2018;
+Author: WJW;
+*/
+
+html{
+
+}
+
+body{
+
+   font-family:Futura, Geneva, Arial, sans-serif;
+   font-size:15px;
+   /*background-color: #f4f4f4;*/
+
+}
+
+.container{
+  max-width: 960px;
+  margin:auto;
+}
+
+.header{
+   position: absolute;
+   width: 960px;
+   height: 80px;
+
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   /*background-color:  #091c24;*/
+
+}
+
+.logo{
+   position: absolute;
+   left: 50px;
+}
+
+.logo img{
+   width: 50px;
+   height: 50px;
+   padding-top: 8px;
+   padding-left:5px;
+
+}
+
+.nav {
+   position: absolute;
+   left: 70px;
+   width: 420px;
+   height: 50px;
+
+   margin-top: 10px;
+
+}
+
+.nav ul{
+    list-style-type: none;
+    text-align: left;
+
+    margin-top: 8px;
+
+
+
+}
+
+.nav li {
+   display: inline-block;
+   padding:10px;
+
+   margin-right: 30px;
+
+}
+
+.nav a{
+   text-decoration: none;
+   color: #4b7549;
+}
+
+.login{
+   position: absolute;
+   left: 780px;
+   top:30px;
+   width: 70px;
+   height: 25px;
+
+   text-align: center;
+   padding-top: 4px;
+}
+
+.login a {
+   text-decoration: none;
+   color: #4b7549;
+}
+
+.signup{
+   position: absolute;
+   left: 870px;
+   top:30px;
+   width: 70px;
+   height: 25px;
+
+   text-align: center;
+   padding-top: 4px;
+}
+
+.signup a{
+   text-decoration: none;
+   color: #4b7549;
+}
+
+
+.top{
+   position: absolute;
+   top:150px;
+   width:960px;
+}
+.mission{
+  max-width: 720px;
+  margin:auto;
+  line-height:2.5em;
+  font-size:130%;
+  font-weight: normal;
+  text-align: center;
+}
+.bottom{
+  position:absolute;
+  top:400px;
+  width:960px;
+}
+
+.story_title{
+  width:960px;
+
+  height:90px;
+}
+h3{
+  text-align: center;
+}
+.story{
+  max-width:720px;
+  margin:auto;
+
+}
+
+.story1{
+  float:left;
+  height:320px;
+}
+.story2{
+  float:right;
+  height:320px;
+}
+.story3{
+  float:left;
+}
+.story4{
+  float:right;
+}
+
+
+
+
+
+
+.footer{
+  position: absolute;
+  top: 800px;
+  clear:both;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-width:960px;
+  margin-bottom:10px;
+  overflow: hidden;
+}
+
+
+
+.contact{
+  float: right;
+  color: white;
+  margin: 1px;
+  padding: 1em;
+
+}
+
+.contact a{
+  text-decoration: none;
+  color:#4b7549;
+}
+
+ .copyright{
+  float: left;
+  color: #4b7549;
+  width: 400px;
+  margin: 1px;
+  padding: 1em;
+ }

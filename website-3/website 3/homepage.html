@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<title>Supperlative</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" title = "basic style" type = "text/css" href = "./homepage.css" media = "all">
+
+</head>
+
+<body>
+
+	<div class = "container">
+
+		<div class = "header">
+
+				<div class = "logo">
+					<a href="./homepage.html"><img src = "./images/logo.png" alt = "logo"></a>
+				</div>
+
+		    <div class ="nav">
+		    	<ul>
+						<li><a href = "./homepage.html">Supperlative</a></li>
+		    		<li><a href = "./board.html" >BOARD</a></li>
+		    		<li><a href = "./mission.html" >MISSION</a></li>
+		    	</ul>
+		    </div>
+
+				<div class = "login">
+					<a href = "./login.html">LOGIN</a>
+				</div>
+
+				<div class = "signup">
+					<a href = "./signup.html">SIGNUP</a>
+				</div>
+
+		</div>
+
+		<div class = "hunger">
+			<div class = "hunger_image">
+				<img src = "./images/hungers.png" alt = "hungergames" width = "720">
+			</div>
+
+		</div>
+		<div class = "map">
+			<div class = "map_image">
+				<iframe src="https://www.google.com/maps/d/embed?mid=1qG3lT_aBRKUNneCumlelaz_o1JcFSFKC" width="720" height="480"></iframe>
+			</div>
+		</div>
+
+
+		<div class ="footer">
+
+	      <div class = "copyright">
+	            <p> © October 20 2018 Supperlative. All rights reserved. </p>
+	      </div>
+
+
+	      <div class = "contact">
+	            <p> <a href = "./sources.html">Picture Sources </a> &emsp; &emsp;<a href = "./contactus.html"> Contact Us </a>
+	      </div>
+
+    </div>
+
+	</div>
+	<script>
+	// Initialize and add the map
+function initMap() {
+  // The location of Central Texas Food Bank
+  var centraltexas = {lat:30.203996, lng:-97.709707};
+  var school = {lat:30.227384, lng: -97.746148};
+  var another = {lat:30.262961, lng: -97.735583};
+  // The map, centered at Central Texas Food Bank
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 12, center: centraltexas});
+  // The marker, positioned at Central Texas Food Bank
+  var marker = new google.maps.Marker({position: centraltexas, map: map});
+  var other = new google.maps.Marker({position: school, map: map});
+ var another = new google.maps.Marker({position: another, map: map});}
+	</script>
+</body>
+</html>

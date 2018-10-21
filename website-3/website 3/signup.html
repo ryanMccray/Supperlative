@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<title>Sign Up</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" title = "basic style" type = "text/css" href = "./login.css" media = "all">
+
+</head>
+
+<body>
+
+	<div class = "container">
+
+		<div class = "header">
+
+				<div class = "logo">
+					<a href="./homepage.html"><img src = "./images/logo.png" alt = "logo"></a>
+				</div>
+
+		    <div class ="nav">
+		    	<ul>
+						<li><a href = "./homepage.html">Supperlative</a></li>
+		    		<li><a href = "./board.html" >BOARD</a></li>
+		    		<li><a href = "./mission.html" >MISSION</a></li>
+		    	</ul>
+		    </div>
+
+
+
+				<div class = "login">
+					<a href = "./login.html">LOGIN</a>
+				</div>
+
+				<div class = "signup">
+					<a href = "./signup.html">SIGNUP</a>
+				</div>
+
+		</div>
+
+
+		<div class = "formcontainer">
+			<div class = "form">
+			<div class = "formheader">
+				<h3> Sign Up</h3>
+			</div>
+			<br>
+
+			<form  id = "registration" action = "signupafter.php" method = "post" onsubmit = "validate();">
+				<table id = "mytable">
+					<tr>
+						<td> User Name </td>
+						<td><input type = "text" id = "username" name = "userName" size = "20" onchange = "checkUser();"></td>
+					</tr>
+
+					<tr>
+						<td> Password </td>
+						<td><input type = "password" name = "password" size = "20"></td>
+					</tr>
+
+					<tr>
+						<td> Repeat Password </td>
+						<td><input type = "password" name = "repeat" size = "20"></td>
+					</tr>
+
+					<tr>
+						<td class = "alnleft"><input type = "submit" name = "registerForm" value = "Register"></td>
+						<td class = "alnright"><input  type = "reset" value = "Clear"></td>
+					</tr>
+				</table>
+                                 <div id="situation"></div>
+			</form>
+			</div>
+		</div>
+
+
+<div class ="footer">
+
+    <div class = "copyright">
+          <p> © October 20 2018 Supperlative. All rights reserved. </p>
+    </div>
+
+    <div class = "contact">
+          <p> <a href = "./sources.html">Picture Sources </a> &emsp; &emsp;<a href = "./contactus.html"> Contact Us </a>
+    </div>
+
+</div>

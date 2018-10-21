@@ -1,0 +1,165 @@
+/*
+File : board.css;
+Date created: October 20 2018;
+Date modified: October 20 2018;
+Author: WJW;
+*/
+
+html{
+
+}
+
+body{
+
+   font-family:Futura, Geneva, Arial, sans-serif;
+   font-size:15px;
+   /*background-color: #f4f4f4;*/
+
+}
+
+.container{
+  max-width: 960px;
+  margin:auto;
+}
+
+.header{
+   position: absolute;
+   width: 960px;
+   height: 80px;
+
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   /*background-color:  #091c24;*/
+
+}
+
+.logo{
+   position: absolute;
+   left: 50px;
+}
+
+.logo img{
+   width: 50px;
+   height: 50px;
+   padding-top: 8px;
+   padding-left:5px;
+
+}
+
+.nav {
+   position: absolute;
+   left: 70px;
+   width: 420px;
+   height: 50px;
+
+   margin-top: 10px;
+
+}
+
+.nav ul{
+    list-style-type: none;
+    text-align: left;
+
+    margin-top: 8px;
+
+
+
+}
+
+.nav li {
+   display: inline-block;
+   padding:10px;
+
+   margin-right: 30px;
+
+}
+
+.nav a{
+   text-decoration: none;
+   color: #4b7549;
+}
+
+.login{
+   position: absolute;
+   left: 780px;
+   top:30px;
+   width: 70px;
+   height: 25px;
+
+   text-align: center;
+   padding-top: 4px;
+}
+
+.login a {
+   text-decoration: none;
+   color: #4b7549;
+}
+
+.signup{
+   position: absolute;
+   left: 870px;
+   top:30px;
+   width: 70px;
+   height: 25px;
+
+   text-align: center;
+   padding-top: 4px;
+}
+
+.signup a{
+   text-decoration: none;
+   color: #4b7549;
+}
+
+.board{
+  position: absolute;
+  width:960px;
+  top:150px;
+
+}
+.board_name{
+  max-width: 720px;
+  margin:auto;
+}
+.board_image{
+  max-width: 720px;
+  margin:auto;
+}
+
+
+
+
+
+
+
+.footer{
+  position: absolute;
+  top: 750px;
+  clear:both;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-width:960px;
+  margin-bottom:10px;
+  overflow: hidden;
+}
+
+
+
+.contact{
+  float: right;
+  color: white;
+  margin: 1px;
+  padding: 1em;
+
+}
+
+.contact a{
+  text-decoration: none;
+  color:#4b7549;
+}
+
+ .copyright{
+  float: left;
+  color: #4b7549;
+  width: 400px;
+  margin: 1px;
+  padding: 1em;
+ }

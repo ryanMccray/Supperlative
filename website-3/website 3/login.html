@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<title>Log In</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" title = "basic style" type = "text/css" href = "./login.css" media = "all">
+
+</head>
+
+<body>
+
+	<div class = "container">
+
+		<div class = "header">
+
+				<div class = "logo">
+					<a href="./homepage.html"><img src = "./images/logo.png" alt = "logo"></a>
+				</div>
+
+		    <div class ="nav">
+		    	<ul>
+						<li><a href = "./homepage.html">Supperlative</a></li>
+		    		<li><a href = "./board.html" >BOARD</a></li>
+		    		<li><a href = "./mission.html" >MISSION</a></li>
+		    	</ul>
+		    </div>
+
+
+
+				<div class = "login">
+					<a href = "./login.html">LOGIN</a>
+				</div>
+
+				<div class = "signup">
+					<a href = "./signup.html">SIGNUP</a>
+				</div>
+
+		</div>
+
+
+    <div class = "formcontainer">
+			<div class = "form">
+				<div class = "formheader">
+					<h3> Log In </h3>
+				</div>
+				<br>
+
+				<form  id = "login" action = "loginafter.php" method = "post">
+					<table id = "mytable">
+						<tr>
+							<td> User Name </td>
+							<td><input type = "text" name = "userName" size = "20"></td>
+						</tr>
+
+						<tr>
+							<td> Password </td>
+							<td><input type = "password" name = "password" size = "20"></td>
+						</tr>
+
+						<tr>
+							<td class = "alnleft"><input type = "submit" name = "login" value = "Log In"></td>
+							<td class = "alnright"><input  type = "reset" value = "Clear"></td>
+						</tr>
+					</table>
+				</form>
+				<br>
+				<p> <a href = "./signup.html"> Create an account </a></p>
+			</div>
+
+		</div>
+
+
+<div class ="footer">
+
+    <div class = "copyright">
+          <p> © October 20 2018 Supperlative. All rights reserved. </p>
+    </div>
+
+    <div class = "contact">
+          <p> <a href = "./sources.html">Picture Sources </a> &emsp; &emsp;<a href = "./contactus.html"> Contact Us </a>
+    </div>
+
+</div>
